@@ -1,12 +1,10 @@
 import './App.css';
-import NavBar from './component/nav';
-import MainBody from './component/main-body';
+import HomePage from './component/home-page';
 
 function App() {
   return (
     <div className="App">
-     <NavBar />
-     <MainBody />
+      <HomePage />
     </div>
   );
 }
