@@ -1,5 +1,6 @@
 import HomeBanner from "../banner/index";
 import FeedCard from "../feed-card";
+import LiItem from "../li-item";
 import NavBar from "../nav";
 
 function HomeLayout() {
@@ -52,7 +53,30 @@ function HomeLayout() {
         <div className="px-4 lg:px-10 mx-auto mt-3">
           <div className="grid grid-cols-1 lg:grid-cols-4 sm:grid-cols-7 gap-1 lg:gap-2 ">
             <div className="col-span-2 lg:col-span-1 hidden md:block">
-              Takes one column on mobile and two on desktop
+              <aside>
+                <nav>
+                  <LiItem
+                    icon="/assets/icons/home.svg"
+                    itemName="Home"
+                    url="/"
+                  />
+                  <LiItem
+                    icon="/assets/icons/home.svg"
+                    itemName="Home"
+                    url="/"
+                  />
+                  <LiItem
+                    icon="/assets/icons/home.svg"
+                    itemName="Home"
+                    url="/"
+                  />
+                  <LiItem
+                    icon=""
+                    itemName="more..."
+                    url="/"
+                  />
+                </nav>
+              </aside>
             </div>
 
             {/* center content */}
