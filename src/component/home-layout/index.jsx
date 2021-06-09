@@ -95,7 +95,7 @@ function HomeLayout() {
               <FeedCard postData={postData} />
             </div>
             {/* center content ends*/}
-
+            
             <div className="hidden lg:block">
               <FlexCard />
               <div className='my-5'>
