@@ -1,4 +1,6 @@
-import HomeBanner from "../banner/index";
+import HomeBanner from "../banner/banner-ad";
+import LeftSideAd from "../banner/left-side-ad";
+import Card from "../basic-card/signup-card";
 import FeedCard from "../feed-card";
 import LiItem from "../li-item";
 import NavBar from "../nav";
@@ -48,12 +50,14 @@ function HomeLayout() {
   return (
     <div>
       <NavBar />
+
       <div className="pt-20">
         <HomeBanner />
         <div className="px-4 lg:px-10 mx-auto mt-3">
           <div className="grid grid-cols-1 lg:grid-cols-4 sm:grid-cols-7 gap-1 lg:gap-2 ">
             <div className="col-span-2 lg:col-span-1 hidden md:block">
               <aside>
+                <Card />
                 <nav>
                   <LiItem
                     icon="/assets/icons/home.svg"
@@ -76,6 +80,7 @@ function HomeLayout() {
                     url="/"
                   />
                 </nav>
+                <LeftSideAd />
               </aside>
             </div>
 
