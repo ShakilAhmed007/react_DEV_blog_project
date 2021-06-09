@@ -1,5 +1,6 @@
 import HomeBanner from "../banner/banner-ad";
 import LeftSideAd from "../banner/left-side-ad";
+import FlexCard from "../basic-card/flex-card";
 import Card from "../basic-card/signup-card";
 import FeedCard from "../feed-card";
 import LiItem from "../li-item";
@@ -95,7 +96,16 @@ function HomeLayout() {
             </div>
             {/* center content ends*/}
 
-            <div className="bg-gray-700 hidden lg:block">i am right</div>
+            <div className="hidden lg:block">
+              <FlexCard />
+              <div className='my-5'>
+                <div className="heading my-5">
+                  <h2 className='ml-2 text-lg font-bold border-b-4 border-blue-600 inline py-2'>Most Viewed</h2>
+                </div>
+                <FlexCard />
+                <FlexCard />
+              </div>
+            </div>
           </div>
         </div>
       </div>
