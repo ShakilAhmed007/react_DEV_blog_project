@@ -8,7 +8,7 @@ function ShowBlog() {
         <div className="px-4 lg:px-10 mx-auto mt-3">
           <div className="grid grid-cols-1 sm:grid-cols-12">
             <div className="sm:py-4 m-1 col-span-1">
-              <div className="grid grid-cols-3 gap-3 sm:grid-cols-1 sm:gap-10 sm:my-5 fixed">
+              <div className="grid grid-cols-3 gap-3 sm:grid-cols-1 sm:gap-10 sm:my-5 md:fixed">
                 <div className="">
                   <a href="" className="">
                     {" "}
@@ -52,7 +52,7 @@ function ShowBlog() {
                 </div>
                 <div className="card-content p-10">
                   <div className="title">
-                    <h1 className="text-6xl font-bold">
+                    <h1 className=" text-4xl md:text-6xl font-bold">
                       React 18 Alpha is out! Now what?{" "}
                     </h1>
                   </div>
@@ -75,7 +75,7 @@ function ShowBlog() {
                     />
                     <span className="self-center ml-3">shakil ahmed</span>
                   </div>
-                  <div className="blog-body my-10 text-xl">
+                  <div className="blog-body my-10 text-lg md:text-xl">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                     Maxime id rem harum optio natus minima illum blanditiis
                     libero quas eveniet, veniam, repellendus totam ex earum fuga
